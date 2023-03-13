@@ -11,10 +11,9 @@ namespace Activity_4
 
         private void button_Convert_Click(object sender, EventArgs e)
         {
-            try
-            {
                 textBox_Output.Text = "";
-                double input = double.Parse(textBox_Input.Text);
+                double input;
+                double.TryParse(textBox_Input.Text, out input);
 
                 if (input >= 86400)
                 {
@@ -32,18 +31,8 @@ namespace Activity_4
                 }
                 else
                 {
-                    textBox_Output.Text = "Input is less than 60.";
+                    textBox_Output.Text = "Enter a number >= 60.";
                 }
-            }
-
-            catch (FormatException)
-            {
-                MessageBox.Show("Please enter only a number.");
-            }
-
-
-
-
         }
     }
 }
