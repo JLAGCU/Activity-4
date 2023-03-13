@@ -9,16 +9,21 @@ Write a Windows Forms Application that prompts the user to enter the number of s
 
 
 Windows Form Output with an input less than 60
+
 ![alt text](https://github.com/JLAGCU/Activity-4/blob/main/WIndows%20Form%201.png?raw=true)
 
 Windows Form Output with an input greater than or equal to 60
+
 ![alt text](https://github.com/JLAGCU/Activity-4/blob/main/WIndows%20Form%202.png?raw=true)
 
 Windows Form Output with an input greater than or equal to 3600
+
 ![alt text](https://github.com/JLAGCU/Activity-4/blob/main/WIndows%20Form%203.png?raw=true)
 
 Windows Form Output with an input greater than or equal to 86400
+
 ![alt text](https://github.com/JLAGCU/Activity-4/blob/main/WIndows%20Form%204.png?raw=true)
 
 Windows Form Output with an input that is not a number
+
 ![alt text](https://github.com/JLAGCU/Activity-4/blob/main/WIndows%20Form%205.png?raw=true)
